@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(218, 218, 218);
+    margin:0;
+    padding:0;
+}
+.top {
+    height: 30px;
+}
+.parent{
+    position: relative;
+}
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+    background: lightsalmon;
+}
+.body {
+    position: absolute;
+    top: 80px; 
+    left: 20px;
+    width: 97%;
+    height: 300px;
+    z-index: 2;
+    background: white;
+}
+.body h1 {
+    text-align: center;
+    font-weight: normal;
+}
