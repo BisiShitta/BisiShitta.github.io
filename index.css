@@ -8,7 +8,7 @@ body {
     background-color: #fff;
 }
 .main{
-    height: 430px;
+    height: 450px;
 }
 .nav {
     position: absolute;
@@ -20,10 +20,9 @@ body {
 .welcome {
     position: absolute;
     top: 80px; 
-    left: 20px;
-    right: 20px;
-    width: 97%;
-    height: 380px;
+    left: 60px;
+    width: 90%;
+    height: 400px;
     z-index: 2;
     background: white;
 }
@@ -31,12 +30,16 @@ body {
     text-align: center;
     font-weight: normal;
 }
-.welcome p {
-    margin: 20px;
+p {
+    margin: 18px;
     font-weight: 100;
     color: gray;
 }
+a{
+    color: #ffa73b;
+}
 .confirm {
+    padding: 20px 0;
     margin: auto;
     width: 150px;
     text-align: center;
@@ -44,9 +47,23 @@ body {
     background: #ffa73b;
 }
 .help {
-    position: relative;
-    margin: 20px;
+    padding: 10px 0;
+    margin: 60px;
     height: 100px;
     background: #ffecd1;
     text-align: center;
+}
+.bottom {
+    height: 100px;
+    margin: 60px;
+}
+.links{
+    margin: 15px;
+}
+.links a{
+    color: black;
+    margin: 5px;
+}
+.bottom a{
+    color: black;
 }
