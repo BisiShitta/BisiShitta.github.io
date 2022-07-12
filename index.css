@@ -17,16 +17,19 @@ body {
     z-index: 1;
     background: #ffa73b;
 }
-.welcome {
+.insert {
     position: absolute;
-    top: 80px; 
-    left: 60px;
-    width: 90%;
-    height: 400px;
     z-index: 2;
+    width: 100%;
+}
+.welcome {
+    margin: 80px;
+    position: relative;
+    height: 430px;
     background: white;
 }
 .welcome h1 {
+    padding-top: 20px;
     text-align: center;
     font-weight: normal;
 }
@@ -39,8 +42,10 @@ a{
     color: #ffa73b;
 }
 .confirm {
-    padding: 20px 0;
+    padding: 15px 0;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 150px;
     text-align: center;
     color: white;
@@ -48,14 +53,17 @@ a{
 }
 .help {
     padding: 10px 0;
-    margin: 60px;
-    height: 100px;
+    margin: 80px;
+    height: 80px;
     background: #ffecd1;
     text-align: center;
 }
+.help p {
+    color: black;
+}
 .bottom {
     height: 100px;
-    margin: 60px;
+    margin: 80px;
 }
 .links{
     margin: 15px;
