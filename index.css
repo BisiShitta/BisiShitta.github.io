@@ -5,9 +5,10 @@ body {
 }
 .top {
     height: 30px;
+    background-color: #fff;
 }
-.parent{
-    position: relative;
+.main{
+    height: 430px;
 }
 .nav {
     position: absolute;
@@ -16,28 +17,36 @@ body {
     z-index: 1;
     background: #ffa73b;
 }
-.body {
+.welcome {
     position: absolute;
     top: 80px; 
     left: 20px;
+    right: 20px;
     width: 97%;
-    height: 360px;
+    height: 380px;
     z-index: 2;
     background: white;
 }
-.body h1 {
+.welcome h1 {
     text-align: center;
     font-weight: normal;
 }
-.body p {
+.welcome p {
     margin: 20px;
     font-weight: 100;
+    color: gray;
 }
 .confirm {
     margin: auto;
-    /* height: 40px; */
     width: 150px;
     text-align: center;
     color: white;
     background: #ffa73b;
+}
+.help {
+    position: relative;
+    margin: 20px;
+    height: 100px;
+    background: #ffecd1;
+    text-align: center;
 }
